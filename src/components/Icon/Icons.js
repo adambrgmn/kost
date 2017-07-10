@@ -20,6 +20,12 @@ export const Inbox = () =>
     <Path d="M5.47 5.19L2 13v5a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-5l-3.47-7.81A2 2 0 0 0 16.7 4H7.3a2 2 0 0 0-1.83 1.19z" />
   </g>;
 
+export const Plus = () =>
+  <g>
+    <Line x1="12" y1="5" x2="12" y2="19" />
+    <Line x1="5" y1="12" x2="19" y2="12" />
+  </g>;
+
 export const PlusCircle = () =>
   <g>
     <Circle cx="12" cy="12" r="10" />

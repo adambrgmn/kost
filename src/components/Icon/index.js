@@ -38,15 +38,13 @@ const getIcon: (icon: IconType) => React$Element<*> = compose(
   toStudlyCaps,
 );
 
-const Icon = ({
-  icon,
-  inline,
-  active,
-}: {
+type Props = {
   icon: IconType,
   inline?: boolean,
   active?: boolean,
-}) =>
+};
+
+const Icon = ({ icon, inline, active }: Props) =>
   <Container>
     <Svg viewBox="0 0 24 24" inline={inline} active={active}>
       {getIcon(icon)}
