@@ -27,6 +27,8 @@ export const PlusCircle = () =>
     <Line x1="8" y1="12" x2="16" y2="12" />
   </g>;
 
+export const NewCost = PlusCircle;
+
 export const List = () =>
   <g>
     <Line x1="8" y1="6" x2="21" y2="6" />

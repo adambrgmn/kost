@@ -5,6 +5,7 @@ declare type IconType =
   | 'inbox'
   | 'settings'
   | 'plus-circle'
+  | 'new-cost'
   | 'list'
   | 'group'
   | 'group-circle'

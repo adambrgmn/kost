@@ -22,6 +22,7 @@ const Svg = styled.svg`
   stroke-width: 2;
   stroke-linecap: round;
   stroke-linejoin: round;
+  transition: stroke 0.3s ease-in-out;
 
   ${props =>
     props.inline &&
